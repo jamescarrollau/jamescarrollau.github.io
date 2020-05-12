@@ -45,18 +45,18 @@ img, ul, ol, h2 {
 }
 
 h2 {
-	padding-left: 5px
+	padding-left: 14px
 }
 
 h1 {
 	display:inline-block;
-	margin-right:10px;
+	margin-left: 5px
 } 
 
 nav {
 	display:inline-block; 
 	float: right;
-	padding: 35px;
+	padding: 11px;
 } 
 
 footer p {
