@@ -156,24 +156,12 @@ div {
     background-color: #E582A2;
     border: 1px black solid;
     padding: 20px;
-}
-
-#right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
     float: left;
     width: 44%;
 }
 
 #right {
-    background-color: pink;
+    background-color: #E55B88;
     border: 1px black solid;
     padding: 20px;
     float: right;   
