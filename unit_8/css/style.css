@@ -8,6 +8,10 @@
 	box-sizing:border-box;
 }
 
+* { 
+	border: 1px solid black; 
+}
+
 body {
 	font-family: adobe-garamond-pro, serif;
 	font size: 16px; /*1em = 16px*/
@@ -114,15 +118,12 @@ h4 {
 	font-size: 20px;
 }
 
-section {
-	text-align: center;
-}
-
 
 @media screen and (max-width:800px){
 
-
-}
+	.james {
+		width: 50%
+	}
 
 @media screen and (max-width:650px){
 
