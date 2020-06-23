@@ -121,10 +121,8 @@ section {
 @media screen and (max-width:800px){
 
 	.james {
-		width: 50%;
-		margin: 0 auto;
+		width: 60%;
 	}
-}
 
 @media screen and (max-width:650px){
 
