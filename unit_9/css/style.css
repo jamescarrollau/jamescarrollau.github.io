@@ -1,0 +1,148 @@
+@import url("https://use.typekit.net/fkt4nfv.css");
+@import url("https://use.typekit.net/fkt4nfv.css");
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: adobe-garamond-pro, serif;
+	font size: 16px; /*1em = 16px*/
+	color: #030b11;
+	line-height: 1.5;
+	background-image: url("../images/Background.jpg");
+	background-size: cover;
+}
+
+
+main {
+	max-width: 50em;
+	margin: 2em auto;
+	text-align: center;
+}
+
+p, ul {
+	font-size: 1.2em
+}
+
+h1, h2, h3, h4, h5, #slogan, nav a {
+	font-family: "brandon-grotesque", sans-serif;
+  	font-style: normal;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+#slogan, h5 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h2, h3, h4, h5, #slogan {
+  	font-weight: 500;
+  }
+
+h1, h2, h4, #slogan, a {
+	color: #002a4c;
+}
+
+h3, h5, nav a {
+	color: #004073;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	font-weight: 400;
+	margin-right: 15px;
+}
+
+header {
+	padding: 1.5em;
+}
+
+h4 {
+	margin: 30px 0;
+}
+
+main, h2, h3, h5 {
+	padding: 20px
+}
+
+img, ul, ol, h2 {
+	margin-left: 25px;
+}
+
+h2 {
+	padding-left: 14px
+}
+
+h1 {
+	display:inline-block;
+	margin-left: 5px
+} 
+
+nav {
+	display:inline-block; 
+	float: right;
+	padding: 11px;
+} 
+
+footer p {
+	font-size: 10px;
+	text-align: center;
+	padding: 10px
+}
+
+h4 {
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
+
+section {
+	text-align: center;
+}
+
+@media screen and (max-width:800px){
+
+	.james {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width:650px){
+
+	header{
+		padding:1 1%;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	nav {
+		padding: 7px
+	}
+
+	.james {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
