@@ -19,7 +19,7 @@ body {
 
 
 main {
-	width: 50em;
+	max-width: 50em;
 	margin: 2em auto;
 	text-align: center;
 }
@@ -121,8 +121,10 @@ section {
 @media screen and (max-width:800px){
 
 	.james {
-		width: 60%;
+		width: 80%;
+		margin: 0 auto;
 	}
+}
 
 @media screen and (max-width:650px){
 
@@ -136,6 +138,11 @@ section {
 
 	nav {
 		padding: 7px
+	}
+
+	.james {
+		width: 80%;
+		margin: 0 auto;
 	}
 }
 
